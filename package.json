@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "export GOOGLE_APPLICATION_CREDENTIALS=/Users/ajean/Downloads/ajeandouble-tdr-firebase-adminsdk-pknqm-5d17087df8.json && nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,9 +14,11 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "express-asyncify": "^1.0.1",
     "firebase": "^8.6.8",
-    "firebase-admin": "^9.9.0",
+    "firebase-admin": "^9.11.0",
     "mongoose": "^5.12.14",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "socket.io": "^4.1.3"
   }
 }
